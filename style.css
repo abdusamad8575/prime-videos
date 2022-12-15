@@ -1,0 +1,274 @@
+
+#body{
+
+    margin: 0;
+    background-color: #222222;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+#navbarID{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 45px;
+    position: fixed;
+    background-color: #222222;
+    z-index: 500;
+    
+}
+.priveVideoClass{
+    width: 140px;
+    height: 43px;
+    background-image: url('images/Screenshot 2022-12-05 042152.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+.ulClass{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 10px 0px;
+    color: #caced2;
+}
+.liClass{
+    padding-right: 20px;
+    font-size: larger;
+}
+.fondWidth{
+    color: #dde0e3;
+}
+.navLeftDiv{
+    display: flex;
+}
+.BrowserClass{
+    font-size: medium;
+    font-weight: bold;
+    color: #97a7b8;
+    display: none;
+    padding: 10px;
+}
+.tryButton{
+    width: 130px;
+    height: 38px;
+    color: #fff;
+    background-color: #0f79af;
+    border: 0;
+    border-radius: 5px;
+    font-size: inherit;
+}
+.IconFloat{
+    color: #cccccc;
+    padding: 10px 0 0 20px;
+    font-size: larger;
+}
+.spanPaddingrigth{
+    margin-right: 5px;
+    color: #cccccc;
+}
+.CategorisIcon{
+    margin-left: 5px;
+    font-size: small;
+    color: #8197a4;
+}
+
+.iconesDiv,.navRigthDiv{
+    display: flex;
+}
+/* hideNavbar */
+.hideNAvbarDiv{
+    background-color: #252e39;
+    position: absolute;
+    width: 100%;
+    transition: .8s ease;
+}
+#ulClass1{
+    margin: 0;
+    list-style: none;
+    color: #caced2;
+    padding: 0;
+    display: none; 
+    /* transition: .5s ease-in-out; */
+}
+.liClass1{
+    font-size: larger;
+    padding: 10px;
+    border-bottom: #323e4c 1px solid;
+      
+}
+/* firstpage */
+
+#firstpage{
+    background-image: url("images/MLP.jpg");
+    width: 100vw;
+    height: 520px;
+    background-size: cover;
+    position: relative;
+    top: 65px;
+}
+.h1Class{
+    margin-top: 50px;
+    font-size: 2.8rem;
+}
+.pClass{
+    font-size: 1.5rem;
+}
+.buttonsing{
+    width: 280px;
+    height: 48px;
+    background-color: #0f79af;
+    border-radius: 5px;
+    color: #cccccc;
+    font-size: large;
+    border: none;
+}
+.h1Wrapped{
+    padding: 64px;
+    color: #cccccc;
+}
+/* spamp */
+.secontPage{
+    width: 100%;
+    height: 480px;
+    background-image: url('images/TVOD_MLP_Left.jpg');
+    background-size: cover;
+    position: relative;
+}
+.secontMainDiv{
+    color: #fff;
+    padding: 65px;
+    top: 120px;
+    right: 0;
+}
+.secontDitailsDiv{
+    height: 289px;
+    font-weight: 700;
+    position: absolute;
+    right: 100px;
+}
+.secontPwrapped{
+    margin-top: 24px;
+    text-align: left;
+    line-height: 1.3;
+    font-size: larger;
+}
+.secontButtonWrapped{
+    margin-top: 45px;
+}
+.thirdPage{
+    width: 100%;
+    /* height: 566.56px; */
+    background-color: #fff;
+}
+.therdPageWrapped{
+    padding: 10px 5%;
+}
+.therdpageDitails{
+    /* width: 100%; */
+    display: flex;
+}
+.therdPAgeleftDiv{
+    margin-top: 24px;
+}
+.therdPAgeleftDivH1{
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+}
+.therdPAgeleftDivPwrapped{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.therdPAgeRigthDiv{
+    /* max-width: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+#therdPAgeRigthId{
+    padding: 0;
+}
+.createButtonDiv{
+    width: 189px;
+    height: 131px;
+    margin: 3px;
+    transition: box-shadow 0.3s;
+}
+.createButtonDiv:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+.imageclass{
+    max-width: 100%;
+}
+/* .fourthPage{
+    width: 100%;
+    height: 500px;
+    background-image: url('images/MLP_Template_Image_Left.jpg');
+    background-size: cover;
+    position: relative;
+} */
+.fifthPage{
+    width: 100%;
+    height: 480px;
+    background-image: url('images/IN-kids-30Jan._CB1517304519_.jpg');
+    background-size: cover;
+}
+/* footer */
+#footer{
+    height: 119px;
+    text-align: center;
+}
+#footerDiv{
+    padding: 24px;
+}
+.primeSimbal{
+    width: 109px;
+    height: 32px;
+    background-image: url('images/web_footer_logo._CB462908456_.png');
+    display: inline-block;
+}
+.footerP{
+    margin: 0;
+    color: #1579af;
+}
+.footerP1{
+    margin: 0;
+    color: gray;
+}
+.footerPspan{
+    margin: 0 10px;
+}
+button,i,.footerPspan,.liClass,.spanPaddingrigth{
+    cursor: pointer;
+}
+.imagelogo{
+    border-radius: 50%;
+}
+button:hover{
+    background-color: #3e91be ;
+}
+@media(max-width:1040px){
+    .ulClass{
+        display: none;
+    }
+    .BrowserClass{
+        display: block;
+    }
+}
+@media(max-width:880px){ 
+    .tryButton{
+        display: none;
+    }
+    #navbarID{
+        padding: 2px;
+        
+    }
+}
+@media(max-width:435px){
+    .priveVideoClass{
+        width: 120px;
+        height: 35px;
+    }
+    .iconesDiv{
+        font-size: x-small;
+    }
+    
+}
